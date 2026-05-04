@@ -1,0 +1,22 @@
+{
+  "name": "ruflo-local",
+  "version": "1.0.0",
+  "description": "Local agent powered by Ollama",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "ollama": "^0.6.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.7",
+    "tsx": "^4.21.0",
+    "typescript": "^5.4.5"
+  }
+}
